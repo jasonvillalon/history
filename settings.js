@@ -3,7 +3,5 @@ module.exports = {
   Description: "History",
   Repository: "https://github.com/jasonvillalon/history.git",
   AtomicDeps: [],
-  JSPMDeps: {
-    "npm:history": "^1.17.0"
-  }
+  Version: "2.0.0"
 };

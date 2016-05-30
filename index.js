@@ -1,4 +1,3 @@
-import createBrowserHistory from "history/lib/createBrowserHistory"
-import createHashHistory from "history/lib/createHashHistory"
-const History = window.cordova ? createHashHistory() : createBrowserHistory()
+import {browserHistory, hashHistory} from "react-router"
+const History = window.cordova ? hashHistory : browserHistory
 export default History
